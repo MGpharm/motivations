@@ -1,0 +1,97 @@
+html {
+  height: 100%;
+  width: 100%;
+  background: url('tree.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+#motivations {
+  background-color: lightblue;
+
+}
+
+button.flower {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10px;
+  background-color: #b0fbfc;
+}
+
+button.rectangle {
+  position: absolute;
+  bottom: 10px;
+  left: 45%;
+  transform: translateX(-50%);
+  height: 50px;
+  width: 400px;
+  border-radius: 5px;
+  background-color: #f39ef5;
+  font-size: 20px;
+}
+
+line {
+  position: absolute;
+  width: 1px;
+  background-color: black;
+
+}
+
+.tree {
+  background: url('tree.png');
+  background-repeat: no-repeat; 
+  background-size: contain;  
+  width: 100%;
+  height: 100%;
+  position: top;
+}
+/* Styles for Progress Bar */
+.barometer-container {
+  position: relative;
+  width: 100%;
+  top: 50px;
+}
+
+.centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 16px;
+   transform: translate(-50%, -50%); /
+}
+
+
+
+.barometer-label {
+  text-align: center;
+}
+
+#motivation1 {
+  width: 100%;
+  height: 50px;
+  length: 100px;
+
+  background: lightgray;
+  
+}
+
+#motivation1::-webkit-progress-bar {
+  background-color: #a2ebe3;
+}
+
+#motivation1[value]::-webkit-progress-value {
+  background: linear-gradient(to right, red, yellow, lime);
+}
+
+#motivation1::-moz-progress-bar {
+  background: linear-gradient(to right, red, yellow, lime);
+}
+#tryAgain {
+  background-color: #f39ef5;
+  border-radius: 5px;
+  font-size: 12px;
+  position: absolute;
+  right: 10px;
+  top: 50px;
+}
